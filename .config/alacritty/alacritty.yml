@@ -88,10 +88,9 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: "Source Code Pro"
-
+    family: "IBM Plex Mono"
     # The `style` can be specified to pick a specific face.
-    #style: Medium
+    style: Medium
     # Bold font face
     #bold:
     # Font family
@@ -148,35 +147,35 @@ font:
   #
   # This is a global setting and will require a log out or restart to take
   # effect.
-  use_thin_strokes: true
+  use_thin_strokes: false
 
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: false
 # Colors (Tomorrow Night Bright)
 colors:
-  # Default colors
+  name: zenburn
+  author: ""
   primary:
-    background: '#282a36'
-    foreground: '#f8f8f2'
-
-  # Normal colors
+    background: "#000000"
+    foreground: "#ffffff"
+  cursor:
+    text: "#000000"
+    cursor: "#ffffff"
   normal:
-    black: '#000000'
-    red: '#ff5555'
-    green: '#50fa7b'
-    yellow: '#f1fa8c'
-    blue: '#caa9fa'
-    magenta: '#ff79c6'
-    cyan: '#8be9fd'
-    white: '#bfbfbf'
-
-  # Bright colors
+    black: "#1e2320"
+    red: "#705050"
+    green: "#60b48a"
+    yellow: "#dfaf8f"
+    blue: "#506070"
+    magenta: "#dc8cc3"
+    cyan: "#8cd0d3"
+    white: "#dcdccc"
   bright:
-    black: '#575b70'
-    red: '#ff6e67'
-    green: '#5af78e'
-    yellow: '#f4f99d'
-    blue: '#caa9fa'
-    magenta: '#ff92d0'
-    cyan: '#9aedfe'
-    white: '#e6e6e6'
+    black: "#709080"
+    red: "#dca3a3"
+    green: "#c3bf9f"
+    yellow: "#f0dfaf"
+    blue: "#94bff3"
+    magenta: "#ec93d3"
+    cyan: "#93e0e3"
+    white: "#ffffff"
