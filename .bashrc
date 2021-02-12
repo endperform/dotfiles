@@ -33,6 +33,8 @@ export VISUAL='nvim'
 # Aliases
 alias ls='ls --color'
 alias grep='rg'
+alias yay='paru'
+alias weather='curl wttr.in/Tucker+Georgia?u'
 
 # Starship
 eval "$(starship init bash)"
