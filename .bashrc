@@ -29,6 +29,9 @@ PROMPT_COMMAND='history -a'
 
 export EDITOR='nvim'
 export VISUAL='nvim'
+export GOHOME=$HOME/code/go
+PATH=$PATH:/home/brad/bin; export PATH
+
 
 # Aliases
 alias ls='ls --color'
